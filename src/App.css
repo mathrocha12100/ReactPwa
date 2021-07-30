@@ -1,0 +1,44 @@
+div.app-page__container {
+  height: 100vh;
+  background: #6e267a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.app-page__count-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #eee;
+  width: 200px;
+  border-radius: 4px;
+}
+
+div.app-page__count-wrapper div.app-page__count-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b12654;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+div.app-page__count-wrapper button.app-page__count-button {
+  background-color: #b12654;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.4s;
+  color: #fff;
+  font-weight: bold;
+}
+
+div.app-page__count-wrapper button.app-page__count-button:hover {
+  opacity: 0.9;
+}
